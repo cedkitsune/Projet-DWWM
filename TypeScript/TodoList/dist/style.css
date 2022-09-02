@@ -1,0 +1,121 @@
+@import url('https://fonts.googleapis.com/css2?family=Arima:wght@400;700&display=swap');
+@media screen and (min-width: 768px) {
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+
+}
+
+body{
+    font-family:"Arima", cursive ;
+    color:#293542;
+    font-size: 1.5rem;
+    background: url(/TypeScript/TodoList/dist/todolist.jpg) no-repeat center/cover ;
+
+}
+
+h1{
+    text-shadow: 1px 2px #fffff0;
+}
+
+.container{
+    height: 96.5vh;
+    margin: 0 auto;
+    padding: 0 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+form{
+    padding: 10px;
+    width:150vh;
+    display: flex;
+    /* align-items: center; */
+    justify-content: center;
+    
+}
+
+input [type='texte']{
+    font-size: 1.5rem;
+    background-color:#fffff0;
+    padding: 10px;
+    border: 2px solid #FFFFF0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    width: 1000vh;
+
+}
+ .todo-input{
+    border-radius: 5px;
+    text-align: center;
+    padding-left: 10px;
+    padding-right: 10px;
+    width: 150px;
+    height: 39px;
+ }
+input[type="checkbox"]{
+    margin-top: 10;
+    margin-left: 10px;
+    cursor: pointer;
+    height: 20px;
+    width: 20px;
+
+}
+li{
+    width: 100%;
+    background-color: #fff;
+    border-radius: 10px;
+    box-shadow: 0 0 3px;
+    padding: 5px;
+    margin-bottom: 5px;
+}
+
+
+
+.todo-btn, .todo-delete-all{
+    background-color:#FFFFF0 ;
+    padding: 10px;
+    border:  2px solid #FFFFF0;
+    border-radius: 5px;
+    margin-bottom: 10px;
+    margin-left: 5px;
+    cursor: pointer;
+}
+
+.todo-btn:hover,.todo-delete-all:hover{
+    color: #FFFFF0;
+    background-color: #293542;
+    border: 2px solid #293542;
+}
+
+.todo-delete-one{
+    background-color:#FFFFF0;
+    padding: 5px;
+    border: 2px solid #FFFFF0;
+    border-radius: 5px;
+
+}
+.todo-delete-one:hover{
+    color: #FFFFF0;
+    background-color: #293542;
+    border: 2px solid #293542;
+}
+
+footer{
+    background:#e0cba9;
+    display: flex;
+    justify-content: space-between;
+}
+.copy{
+    padding-left: 10px;
+}
+.ced{
+    padding-right: 10px;
+}
+h3{
+    font-size: 1rem;
+}
+}
